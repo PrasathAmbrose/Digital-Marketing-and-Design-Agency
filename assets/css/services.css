@@ -1,0 +1,1589 @@
+.nav-link:hover {
+  color: #ff648a;
+}
+
+.search-btn {
+  color: black;
+  background-color: transparent;
+}
+
+footer li:hover {
+  cursor: pointer;
+  color: #ff648a;
+  transform: translate(5px, 0);
+}
+
+.section1 {
+  background-color: rgba(138, 43, 226, 0.4);
+}
+
+.hero-img {
+  background-image: url("../img/bg_img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section2 button:hover{
+  background-color: rgb(171, 92, 245);
+}
+
+.section3 button:hover{
+  background-color: rgb(171, 92, 245) !important;
+}
+
+.section4 .card:hover img {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  /* Extra small devices  */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* services page section2 */
+  .section2 {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 article {
+    width: 18rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    z-index: 99;
+  }
+
+  .section2 h5 {
+    font-size: 18px !important;
+  }
+
+  .section2 .article {
+    line-height: 1.5;
+    font-size: 9px !important;
+  }
+
+  .section2 .bg-img {
+    width: 10rem;
+  }
+
+  .section2 .container .media-card {
+    width: 5rem;
+    background: transparent;
+  }
+
+  .section2 .container .media-card h6 {
+    font-size: 6px !important;
+  }
+
+  .section2 .card img {
+    width: 40px;
+    padding-left: 10px !important;
+  }
+
+  .section2 .card p {
+    font-size: 5px;
+    padding-left: 0;
+  }
+
+  .section2 button {
+    font-size: 6px;
+    border-radius: 3.5px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 95rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .section3 .sub-text {
+    font-size: 12px;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 8rem 8rem;
+    grid-row: auto auto;
+    grid-column-gap: rem !important;
+    grid-row-gap: 4.5rem;
+    margin-top: 20px !important;
+  }
+
+  .section3 .card {
+    width: 8rem;
+    height: 8rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 12px !important;
+    font-weight: 450;
+  }
+
+  .section3 .card h6 {
+    font-size: 12px !important;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 12rem;
+  }
+
+  .section3 button {
+    font-size: 8px;
+    margin-top: 50px !important;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+  }
+
+  .section3 .card {
+    height: 12rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 43rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 43rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 250px !important;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 15rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 15rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 8rem 8rem;
+    grid-template-rows: 13rem 13rem 13rem 13rem;
+    grid-column-gap: 10px;
+  }
+
+  .section4 .card {
+    width: 8rem;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 5rem;
+  }
+
+  .section4 .card p {
+    font-size: 6px !important;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-left: 9px;
+  }
+
+  .section4 .card h6 {
+    padding-top: 10px;
+    font-size: 12px !important;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .card5 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  /* services page footer  */
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 150px 70px;
+    justify-content: space-around;
+    grid-row-gap: 1rem;
+  }
+
+  footer .content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  footer .services {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  footer .community {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  footer .links {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  footer .container img {
+    width: 3.5rem;
+  }
+
+  footer .container p {
+    text-align: start !important;
+    font-size: 0.6rem;
+  }
+
+  footer ul li {
+    font-size: 0.6rem;
+  }
+
+  footer ul h5 {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* sm small devices */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* services page section2 */
+  .section2 {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 h5 {
+    font-size: 20px !important;
+  }
+
+  .section2 .article {
+    line-height: 1.5;
+    font-size: 7px !important;
+  }
+
+  .section2 .bg-img {
+    width: 17rem;
+  }
+
+  .section2 .container .media-card {
+    width: 6.5rem;
+  }
+
+  .section2 .container .media-card h6 {
+    font-size: 9px !important;
+  }
+
+  .section2 .card img {
+    width: 40px;
+    padding: 0 !important;
+  }
+
+  .section2 .card p {
+    font-size: 8px;
+  }
+
+  .section2 button {
+    font-size: 8px;
+    border-radius: 3.5px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    height: 112rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 12rem 12rem;
+    grid-row: auto auto;
+    grid-column-gap: 1rem !important;
+    grid-row-gap: 4rem;
+  }
+
+  .section3 .card {
+    width: 12rem;
+    height: 12rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 12px !important;
+    font-weight: 450;
+  }
+
+  .section3 .card h6 {
+    font-size: 12px !important;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 12rem;
+  }
+
+  .section3 button {
+    font-size: 12px;
+    margin-top: 50px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .section3 .card {
+    height: 15rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 40rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 90%;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 180px !important;
+    left: 100px;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 25rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 25rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 7rem 7rem 7rem 7rem;
+    grid-column-gap: 20px;
+  }
+
+  .section4 .card {
+    width: 10rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 5.5rem;
+  }
+
+  .section4 .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section4 .card p {
+    font-size: 8px !important;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-left: 9px;
+  }
+
+  .section4 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card5 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* services page footer */
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 180px 130px 130px 100px;
+    justify-content: space-around;
+  }
+
+  footer .container p {
+    font-size: 0.6rem;
+  }
+
+  footer ul li {
+    font-size: 0.6rem;
+  }
+
+  footer ul h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* md Medium devices */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* services page section2 */
+  .section2 {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 .article {
+    line-height: 1.5;
+    font-size: 11px !important;
+  }
+
+  .section2 .bg-img {
+    width: 21rem;
+  }
+
+  .section2 .container .media-card {
+    width: 10rem;
+  }
+
+  .section2 .card img {
+    width: 60px;
+  }
+
+  .section2 .card p {
+    font-size: 11px;
+  }
+
+  .section2 button {
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    height: 75rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 12rem 12rem 12rem;
+    grid-row: auto auto;
+    grid-column-gap: 1rem !important;
+    grid-row-gap: 4rem;
+  }
+
+  .section3 .card {
+    width: 12rem;
+    height: 12rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 12px !important;
+    font-weight: 450;
+  }
+
+  .section3 .card h6 {
+    font-size: 12px !important;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 12rem;
+  }
+
+  .section3 button {
+    font-size: 12px;
+    margin-top: 60px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .section3 .card {
+    height: 15rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 50rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 90%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 180px !important;
+    left: 100px;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 35rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 35rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 12rem 12rem 12rem;
+    grid-template-rows: 10rem 8rem 10rem 8rem;
+    grid-column-gap: 20px;
+  }
+
+  .section4 .card {
+    width: 12rem;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 5.5rem;
+  }
+
+  .section4 .card p {
+    font-size: 9.5px !important;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .section4 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card5 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* services page footer */
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px;
+    justify-content: space-around;
+  }
+
+  footer .container p {
+    font-size: 0.8rem;
+  }
+
+  footer ul li {
+    font-size: 0.8rem;
+  }
+
+  footer ul h5 {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* lg Large devices */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* services page section2 */
+
+  .section2 {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 .article {
+    font-size: 15px !important;
+  }
+
+  .section2 .bg-img {
+    width: 30rem;
+  }
+
+  .section2 .container .media-card {
+    width: 12rem;
+  }
+
+  .section2 .card img {
+    width: 60px;
+  }
+
+  .section2 .card p {
+    font-size: 13px;
+  }
+
+  .section2 button {
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    height: 85rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-row: auto auto;
+    grid-column-gap: 1rem !important;
+    grid-row-gap: 4rem;
+  }
+
+  .section3 .card {
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 18px !important;
+    font-weight: 450;
+  }
+
+  .section3 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 18rem;
+  }
+
+  .section3 button {
+    font-size: 12px;
+    margin-top: 50px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .section3 .card {
+    height: 19rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 55rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    height: 55rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 100px !important;
+    left: 150px;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 45rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 45rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 10rem 10rem 10rem 10rem;
+    grid-column-gap: 50px;
+  }
+
+  .section4 .card {
+    width: 15rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 8rem;
+  }
+
+  .section4 .card p {
+    font-size: 12px !important;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .section4 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card5 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* services page footer */
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 300px 200px 200px 100px;
+    justify-content: space-around;
+  }
+
+  footer .container p {
+    font-size: 0.9rem;
+  }
+
+  footer ul li {
+    font-size: 0.9rem;
+  }
+
+  footer ul h5 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* xl Extra large devices */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* services page section2 */
+  .section2 {
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 .bg-img {
+    width: 35rem;
+  }
+
+  .section2 .container .media-card {
+    width: 15rem;
+  }
+
+  .section2 .card img {
+    width: 60px;
+  }
+
+  .section2 button {
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    height: 85rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-row: auto auto;
+    grid-column-gap: 1rem !important;
+    grid-row-gap: 4rem;
+  }
+
+  .section3 .card {
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 18px !important;
+    font-weight: 450;
+  }
+
+  .section3 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 18rem;
+  }
+
+  .section3 button {
+    font-size: 12px;
+    margin-top: 80px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .section3 .card {
+    height: 19rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 50rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 90%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 80px !important;
+    left: 150px;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 45rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 45rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem;
+    grid-column-gap: 80px;
+  }
+
+  .section4 .card {
+    width: 15rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 8rem;
+  }
+
+  .section4 .card p {
+    font-size: 12px !important;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .section4 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card5 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* services page footer */
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 300px 200px 200px 160px;
+    justify-content: space-around;
+  }
+
+  footer .container p {
+    font-size: 0.9rem;
+  }
+
+  footer ul li {
+    font-size: 0.9rem;
+  }
+
+  footer ul h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* xxl Extra extra large devices */
+  .section1 {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  /* services page section2 */
+  .section2 {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section2 .bg-img {
+    width: 40rem;
+  }
+
+  .section2 .container .media-card {
+    width: 15rem;
+  }
+
+  .section2 .card img {
+    width: 60px;
+  }
+
+  .section2 button {
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /* services page section3 */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    height: 85rem;
+  }
+
+  .section3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 h2 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .section3 .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-row: auto auto;
+    grid-column-gap: 1rem !important;
+    grid-row-gap: 4rem;
+  }
+
+  .section3 .card {
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  .section3 .card h5 {
+    font-size: 18px !important;
+    font-weight: 300;
+  }
+
+  .section3 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .section3 img {
+    height: 18rem;
+  }
+
+  .section3 button {
+    font-size: 12px;
+    margin-top: 60px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .section3 .card {
+    height: 19rem !important;
+    padding: 1rem;
+  }
+
+  .section3 .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.4px 2.7px rgba(0, 0, 0, 0.04),
+      0px 3.5px 6.9px rgba(0, 0, 0, 0.058),
+      0px 7.1px 14.2px rgba(0, 0, 0, 0.072),
+      0px 14.6px 29.2px rgba(0, 0, 0, 0.09), 0px 40px 80px rgba(0, 0, 0, 0.13);
+  }
+
+  /* services page section4 */
+  .section4 {
+    height: 50rem;
+    position: relative;
+  }
+  .section4 .section-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin-left: 1000px;
+    width: 90%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: url("../img/services_assets/Path1.png");
+  }
+
+  .section4 .section-bg .path2 {
+    position: absolute;
+    top: 80px !important;
+    left: 150px;
+    mask-image: url("../img/services_assets/Path2.png");
+    mask-repeat: no-repeat;
+    mask-size: 45rem;
+  }
+
+  .section4 .section-bg .path2 img {
+    width: 45rem;
+  }
+
+  .section4 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  .section4 .container .card-box {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem;
+    grid-column-gap: 80px;
+  }
+
+  .section4 .card {
+    width: 15rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+
+  .section4 .card img {
+    width: 8rem;
+  }
+
+  .section4 .card p {
+    font-size: 12px !important;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .section4 .card h6 {
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card5 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .card6 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* about page footer */
+  footer {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 300px 200px 200px 160px;
+    justify-content: space-around;
+  }
+}
